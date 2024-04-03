@@ -1,0 +1,12 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                            Test Method: 'com.qacart.shaft.OpenBrowsers.postRequest'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @03-04-2024 10:44:49.0881 AM
+[ReportManager] Actual response status code "200" is successful (Between 200 and 299). @03-04-2024 10:44:49.0883 AM
+[ReportManager] Request performed; POST | Response Time: 859ms. @03-04-2024 10:44:50.0877 AM
+[ReportManager] Expected "firstName", and actual "{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGQxMzUzODFkYzcxMDAxNGI3NjlhZiIsImZpcnN0TmFtZSI6Ik1vaGFtZWQiLCJsYXN0TmFtZSI6IkFseSIsImlhdCI6MTcxMjEzMzg4OX0.Z6wtPXxwhcgEsVYqYrj2W9tC7QsBwF5dZPhbyNSRsyU","userID":"660d135381dc710014b769af","firstName":"Mohamed"}" @03-04-2024 10:44:50.0941 AM
+[ReportManager] Assertion passed @03-04-2024 10:44:50.0950 AM
+[ReportManager] Get response jsonvalue; firstName. @03-04-2024 10:44:51.0087 AM

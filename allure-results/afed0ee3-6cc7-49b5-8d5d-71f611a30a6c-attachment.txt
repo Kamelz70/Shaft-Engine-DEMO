@@ -1,0 +1,205 @@
+[INFO ] 2024-04-03 10:44:46.159 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.2.20240402[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-03 10:44:46.172 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-04-03 10:44:46.202 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-04-03 10:44:46.202 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-04-03 10:44:46.223 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-04-03 10:44:46.578 [main] Utils - [TestNG] Running:
+  C:\Users\moham\AppData\Local\JetBrains\IntelliJIdea2023.3\temp-testng-customsuite.xml
+
+[INFO ] 2024-04-03 10:44:46.640 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-03 10:44:46.722 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-04-03 10:44:46.739 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-04-03 10:44:46.976 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                            Test Method: 'com.qacart.shaft.OpenBrowsers.postRequest'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-03 10:44:47.203 [] ReportManager - Loaded OpenCV "opencv_java490".
+[DEBUG] 2024-04-03 10:44:48.612 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-04-03 10:44:48.614 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-04-03 10:44:48.617 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/moham/.m2/repository/io/qameta/allure/allure-attachments/2.26.0/allure-attachments-2.26.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-04-03 10:44:48.944 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-04-03 10:44:48.973 [main] BasicClientConnectionManager - Get connection for route {s}->https://todo.qacart.com:443
+[DEBUG] 2024-04-03 10:44:49.006 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2024-04-03 10:44:49.053 [main] DefaultClientConnectionOperator - Connecting to todo.qacart.com:443
+[DEBUG] 2024-04-03 10:44:49.463 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-04-03 10:44:49.463 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-04-03 10:44:49.466 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-04-03 10:44:49.466 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-04-03 10:44:49.466 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-04-03 10:44:49.466 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-04-03 10:44:49.466 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-04-03 10:44:49.466 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-04-03 10:44:49.466 [main] DefaultClientConnection - Sending request: POST /api/v1/users/login HTTP/1.1
+[DEBUG] 2024-04-03 10:44:49.467 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-04-03 10:44:49.467 [main] wire -  >> "POST /api/v1/users/login HTTP/1.1[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.467 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.468 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.468 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.469 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.469 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.469 [main] wire -  >> "Content-Length: 61[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.469 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.469 [main] wire -  >> "Host: todo.qacart.com[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.469 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/22)[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.469 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.469 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.469 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/22)[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.469 [] wire -  >> "[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.469 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.469 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-04-03 10:44:49.469 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.469 [] headers - >> Accept: */*
+[DEBUG] 2024-04-03 10:44:49.469 [main] headers - >> POST /api/v1/users/login HTTP/1.1
+[DEBUG] 2024-04-03 10:44:49.470 [] headers - >> Host: api.github.com
+[DEBUG] 2024-04-03 10:44:49.470 [main] headers - >> Accept: */*
+[DEBUG] 2024-04-03 10:44:49.470 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-04-03 10:44:49.470 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2024-04-03 10:44:49.470 [main] headers - >> Content-Length: 61
+[DEBUG] 2024-04-03 10:44:49.470 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/22)
+[DEBUG] 2024-04-03 10:44:49.470 [main] headers - >> Host: todo.qacart.com
+[DEBUG] 2024-04-03 10:44:49.470 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-04-03 10:44:49.470 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-04-03 10:44:49.470 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/22)
+[DEBUG] 2024-04-03 10:44:49.470 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-04-03 10:44:49.470 [main] wire -  >> "{"password":"1q2w3e4r5t6y","email":"simple.user73@gmail.com"}"
+[DEBUG] 2024-04-03 10:44:49.697 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.700 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.700 [main] wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1712133889&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=qTqs1eSBEH%2FAMO4UnjrMUgMALrQwLCxxLGwYGq3PXQo%3D"}]}[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.701 [main] wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1712133889&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=qTqs1eSBEH%2FAMO4UnjrMUgMALrQwLCxxLGwYGq3PXQo%3D[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.701 [main] wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.701 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.701 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.701 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.701 [main] wire -  << "Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGQxMzUzODFkYzcxMDAxNGI3NjlhZiIsImZpcnN0TmFtZSI6Ik1vaGFtZWQiLCJsYXN0TmFtZSI6IkFseSIsImlhdCI6MTcxMjEzMzg4OX0.Z6wtPXxwhcgEsVYqYrj2W9tC7QsBwF5dZPhbyNSRsyU; Path=/[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.701 [main] wire -  << "Set-Cookie: userID=j%3A%22660d135381dc710014b769af%22; Path=/[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.701 [main] wire -  << "Set-Cookie: firstName=Mohamed; Path=/[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.701 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.702 [main] wire -  << "Content-Length: 277[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.702 [main] wire -  << "Etag: W/"115-MLy/4CPjnGrS24qdzIMZ59KoBqk"[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.702 [main] wire -  << "Date: Wed, 03 Apr 2024 08:44:49 GMT[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.702 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.702 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.703 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-04-03 10:44:49.703 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-04-03 10:44:49.703 [main] headers - << Server: Cowboy
+[DEBUG] 2024-04-03 10:44:49.703 [main] headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1712133889&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=qTqs1eSBEH%2FAMO4UnjrMUgMALrQwLCxxLGwYGq3PXQo%3D"}]}
+[DEBUG] 2024-04-03 10:44:49.704 [main] headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1712133889&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=qTqs1eSBEH%2FAMO4UnjrMUgMALrQwLCxxLGwYGq3PXQo%3D
+[DEBUG] 2024-04-03 10:44:49.704 [main] headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+[DEBUG] 2024-04-03 10:44:49.704 [main] headers - << Connection: keep-alive
+[DEBUG] 2024-04-03 10:44:49.704 [main] headers - << X-Powered-By: Express
+[DEBUG] 2024-04-03 10:44:49.704 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-04-03 10:44:49.704 [main] headers - << Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGQxMzUzODFkYzcxMDAxNGI3NjlhZiIsImZpcnN0TmFtZSI6Ik1vaGFtZWQiLCJsYXN0TmFtZSI6IkFseSIsImlhdCI6MTcxMjEzMzg4OX0.Z6wtPXxwhcgEsVYqYrj2W9tC7QsBwF5dZPhbyNSRsyU; Path=/
+[DEBUG] 2024-04-03 10:44:49.704 [main] headers - << Set-Cookie: userID=j%3A%22660d135381dc710014b769af%22; Path=/
+[DEBUG] 2024-04-03 10:44:49.704 [main] headers - << Set-Cookie: firstName=Mohamed; Path=/
+[DEBUG] 2024-04-03 10:44:49.704 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-04-03 10:44:49.704 [main] headers - << Content-Length: 277
+[DEBUG] 2024-04-03 10:44:49.704 [main] headers - << Etag: W/"115-MLy/4CPjnGrS24qdzIMZ59KoBqk"
+[DEBUG] 2024-04-03 10:44:49.704 [main] headers - << Date: Wed, 03 Apr 2024 08:44:49 GMT
+[DEBUG] 2024-04-03 10:44:49.704 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2024-04-03 10:44:49.723 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-04-03 10:44:49.723 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-04-03 10:44:49.752 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.752 [] wire -  << "Server: GitHub.com[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.752 [] wire -  << "Date: Wed, 03 Apr 2024 08:44:49 GMT[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.752 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.752 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.752 [] wire -  << "Vary: Accept, Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.752 [] wire -  << "ETag: W/"220996f1291f7b127a181732a2d18e961ddd9904b557090577984d64de18ba2e"[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.753 [] wire -  << "Last-Modified: Tue, 02 Apr 2024 12:08:53 GMT[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.753 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.753 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.753 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.753 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.753 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.753 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.753 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.753 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.754 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.754 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.754 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.754 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.754 [] wire -  << "X-RateLimit-Remaining: 56[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.754 [] wire -  << "X-RateLimit-Reset: 1712136463[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.754 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.754 [] wire -  << "X-RateLimit-Used: 4[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.754 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.754 [] wire -  << "Content-Length: 1189[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.754 [] wire -  << "X-GitHub-Request-Id: 5F64:73353:1032DB55:1045D138:660D1701[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.754 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-03 10:44:49.755 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-04-03 10:44:49.755 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-04-03 10:44:49.755 [] headers - << Server: GitHub.com
+[DEBUG] 2024-04-03 10:44:49.755 [] headers - << Date: Wed, 03 Apr 2024 08:44:49 GMT
+[DEBUG] 2024-04-03 10:44:49.755 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-04-03 10:44:49.755 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2024-04-03 10:44:49.755 [] headers - << Vary: Accept, Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2024-04-03 10:44:49.755 [] headers - << ETag: W/"220996f1291f7b127a181732a2d18e961ddd9904b557090577984d64de18ba2e"
+[DEBUG] 2024-04-03 10:44:49.755 [] headers - << Last-Modified: Tue, 02 Apr 2024 12:08:53 GMT
+[DEBUG] 2024-04-03 10:44:49.755 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2024-04-03 10:44:49.755 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2024-04-03 10:44:49.755 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2024-04-03 10:44:49.756 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-04-03 10:44:49.756 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2024-04-03 10:44:49.756 [] headers - << X-Frame-Options: deny
+[DEBUG] 2024-04-03 10:44:49.756 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2024-04-03 10:44:49.756 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2024-04-03 10:44:49.756 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2024-04-03 10:44:49.756 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2024-04-03 10:44:49.756 [] headers - << Content-Encoding: gzip
+[DEBUG] 2024-04-03 10:44:49.756 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2024-04-03 10:44:49.756 [] headers - << X-RateLimit-Remaining: 56
+[DEBUG] 2024-04-03 10:44:49.756 [] headers - << X-RateLimit-Reset: 1712136463
+[DEBUG] 2024-04-03 10:44:49.756 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2024-04-03 10:44:49.756 [] headers - << X-RateLimit-Used: 4
+[DEBUG] 2024-04-03 10:44:49.756 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2024-04-03 10:44:49.757 [] headers - << Content-Length: 1189
+[DEBUG] 2024-04-03 10:44:49.757 [] headers - << X-GitHub-Request-Id: 5F64:73353:1032DB55:1045D138:660D1701
+[DEBUG] 2024-04-03 10:44:49.761 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-04-03 10:44:49.762 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]Wao[0xdb]6[0x10][0xfd]+[0x84][0x8a]b@[0x10]S[0x96],;[0x8e][0x80][0xa2][[0xea][0xb4][0xcd][0x87]$[0xe8][0x1a]`[0xc0][0xba][0xc2][0xa0])Zb#[0x91],I[0xd9]q[0x8d][0xfc]"
+[DEBUG] 2024-04-03 10:44:49.763 [] wire -  << "[0xf7][0x1d])[0xc5]I[0x84][0xc2]-j[0x15][0x9]b[0x9a][0x11][0xdf][0xdd][0xbd];[0xbe];m[0x83]Z[0x97]A[0x1a][0x14][0xd6]*[0x93][0x86]!Q[0x1c][0xe7][0xdc][0x16][0xf5][0x2]SY[0x85][0x9a])i[0xc2][0x8f][0x5]Y[0xda][0xf7][0x1f][0xc2][0x8f][0xef][0xff]z{3?[0xbf]zwqu[0xe][0xff]*[0x19]1[0xcc][0x84]Qr:[0x9a][0xe][0xe3]h[0x1a][0x1c][0x7][0xc4][0x18]f[0xcd][0xbc]?[0xcc][0xb0]A[0x4][0xe8]Z[0x95][0x92]d[0x1d][0xe8]f[0xd3][0xfc][0xb2][0xcb]-[0xfc][0xf6][0xb5] [0x15];.[0xc9][0x82][0x95][0xf7]`[0xab][0xb0]U[0xd9][0xb1][0xf4][0x84][0x94][0xfd]tX[0x92][0x87]S[0x1c][0xe3]x[0x18]'[0xc3]d[0x18][0x3][0x1c][0xcf][0x82]t[0xc7][0x12][0x90]T[0xdb]B[0xea] [0xdd][0x6][0xa5][0xcc][0xb9][0x0][0xf6][0x1b][0xf0][0x1][0xa1][0x96]Ka>-[0xa4][0xfd][0xdc][0x1e]K[0xa2][0xe9][0xe9]4[0x9e][0xc6][0xc7][0x81][0x90][0x19][0x9b];[0xa4][0xe0]rv9[0xf9]P[0x9d][0xe][0xaf]f[0xe7][0xc9][0xf5]M[0xbe][0xb9][0x9e]][0xbc]r[0xdc][0xaf][0x88]%[0xba][0xcb][0xbd][0xdf]| [0xa8]6LS),[0x13][0xd6][0xa7][0x97][0x8b]0[0x1a][0x8f]&[0xd3][0xd7][0xab]W[0x9] [0xe4][0xba][0xc5][0xf0]f[0x1c][0xe7][0xfb]j[0xc3][0x81][0x99][0xf0][0xb9][0xeb]/[0xc7]g[0xe0][0xfc][0xcb][0xf1][0xec][0x87]$[0x12][0xa5][0xba][0x87][0xe1][0xcc]R[0x96][0xa5]\[0x3]n7[0x8c][0xe7]e[0xb9][0xd7]t[0xb8][0x3][0xd9][0x1]r[0x91][0x1f][0xe][0x8] [0xdb]P[0xda][0x82][0x1][0xc7][0x10][0xba][0xab][0x93][0x9c][0x9b][0x1f]U[0xfb]~W=[0xc0][0x16]H4[0x16]r[0xeb] [\r][0xa4]K[0xb3]n[0x9d]w[0xae][0xe5]~[0xd0][0x16][0x2][0x9c]][0xb][0xf0]s[0xeb]o[0xb1][0xc7][0xae][0x17][0x86]j[0xae]|[0x95][0x1d]B[0xc8]3 [0x0][0x96]:'[0x82]#[0x7][0x3][0x3][0x90][0x1]</;[0x87]8[0xe8][0x1][0x0][0x88][0xad][0xa0][0xd4][0xf]Bj[0x10][0xb6][0xa1][0xd2]|E[0xe8][0xc6][0xd1][0xa8][0x19]e|[0x5]9:[0x1c][0xbd][0x3][0x5][0xe0]v[0xa3][0x18]\[0xbe]3i][0xc2][0xb8]es[0x92]UN$[0x96][0xa4]4[0xec][0xfe][0xa9][0xe][0xfc]}>[0xbf]][0xcf][0xae][0xdf][0xbc]c7[0x13][0x93]\[0x8c][0xa3][0xbb][0x89][0x3] [0xf9][0xdc][0xa9][0x19][0x80]td[0x8]*+gv[0xe][0x17][0xbf][0xe2][0x96][0x9b][0x2][0x9e][0xa8][0x8]@[0x3][0xe6]w[0x9f][0xcf]4[0xc8]~k[0xf8]8P[0x9a][0xb5][0x92][0xbf][0xdb][0xa2][0x9a][0x11][0xb]<[0x10]x*pz7[0x18][0xc2]o|[0x13][\r][0xd3]h[0x9c]&[0xa3][0x1]Z[0xd5][0x8b][0x12]l}[0xef][0xa9]8[0x1d]N[0xd3][0xb1][0xaa]U[0xf9][0xf4][0xd3]g[0x17][0x80]^[0x90][0xb2][0xab][0xbf]?[0xdf][0x98][0xda][0xf3]][0x11][0xfe][0xc6][0xd5]A[0xb0][0xed][0xf9].[0xec]Bf[0x1b][0x88][0xfe][0xc5][0xb][0xf4]OA[0xec][0x1f][0x6][0xbd])[0x88][0xc8]Y[0xf6][0x9f]8Bgu[0xa5][0x10][0x97][0x98][0xd6][0xb4][0xae][0x16]L[0xa7][0xf][0x8b][0x81][0xe2]T:![0x6][0xfa][0x99]FK-+t[0x82][0xa3]1[0x1e]"+[0xdd]j[0x82]#[0xb4][0xd8][0xa0]?3[0xa6][0x98][0xc8][0x8]h*[0xe2][0x2]=4[0xe9][0x1f][0xf5]"U[0x97]%[0x8][0xfb]x[0xba]s[0xa2]9[0x11]R[0xe8]!_[0xcb][0xb6][0xcf]4fcgq[0xd4][0x83][0xb1][0x93][0x9d][0xb1][0xb6][0x8d][0x85][0xb4]`[0xf4]V[0xd6][0xb6]14r[0x86][0x92][0x1e][0xc]M[0xf6]S[0xfb][0x5]z[0xd8]oc4[0xd9]o[0xdb]2cE[0xfe][0xdb][0xac][0xc7];[0xeb][0x90]H[0x10]#[0x97]O[0xf8][0x18][0x10]A[0xca][0x8d][0xe1]f@K[0xfe],[0xb9][0x11][0x8e][0x9a][0x92]Jp[0x2][0x8b][0xc3]+j[0xbc][0xf3][0x0][0x94][0x1a][0x13][0xa3][0x18][0xb5]_[0xd2][0xf6]s[0xcd][0xc8][0xea][0xa1][0x9a]#|[0x8a][0xe3][0x8][0xfb][0xea][0xf2][0xeb][0xb8][0x7][0xeb]#g][0x82][\r][0xcd]3[0xe8][0xc6][0xc8][0xd1][0x8d][0xe0][0x1a]-y[0xe][0xd7][0xc3]XF2$[0x97][0xc8][0xd4] [0x9b][0xde][0xdc][0xa5],[0xc8][0x2][0xfe]p[0xf6]+[0xd7][0xe7][0xf4]y[0xb0][0x8a]@A[0xe3][\n]"
+[DEBUG] 2024-04-03 10:44:49.764 [] wire -  << "b[0x14]X[0x95]5Ln&[0xf5][0xdf][0x6][0xb9][0xca][0x7][0xcd]N[[0xea]0[0xfe]E[0xfe]^[0xb9]9[0xf0][0xf0][0xc0]'[0xc3]'[0x89][0xaf]p.e^2L[0xf5]FY[0x89]-[0x17][0xb7][0xa9][0xfb]3[0xc8][0xa9][0xba][0xad]L[0xe3][0x82][0xe3][0xdc][0x8b][0x9][0x94][0xc0][0xb0][0x8f][0xd4]O[0x1e][0x8b][0xcf][0xa5][0xde][0xc0][0xf4]/x][0x15]_w[0xcb][0xf4]ao[0xf0]x[0x5][0x13][0x1c]M[0x1b]*`u[0xda][0x87][0xa8]M[0x1e]u[0x6][0x94][0x15][0xa6]Hp"u[0x6]][0xf1]C[0xb3]o[0xc2][0x87][0x82]k[0xc2]w[0x8b]>2[0xe0][0xb][0xff]\[0x80][0xb6]S[0x86][0xa0][0x17]!7ah[0xa0]=?[0xbc][0xd0]&^[0xa7]g[0x1b][0xe8][0xc2][0x9c]"E4t?V[0xb6][0xe3][0x14][0xaa]@[0xb3][0xf][0xb7]q[0xe2]K[0xe8][0x6].[0x8c]s[0xd9][0xb5][p[0x1e][0xa6][0xc0][0x1e][0x90]}a,[0xa5][0xa6][0xec]L[0xcb]5[0x0][0xcf]`[0xee]t[0xef]jn[0x13][0xd1][0x2][0x9a][0x1b]P&[0xe0]+[0xd7]l)[0xef]z0[0xe9]ex[0xc9][0xef]X[0x6]y[0xc8]53[0x6]bA[0xdc][0x98][0x9a][0xa1]5[0xbc][0xbd]"[0x18]s[0x19][0x13][0xa6][0x90][0xb6][0x8f][0x8][0x9f]&?{$[0xf]-JIo{[0x8][0xc7]w4[0x92]yM[0x13]l[0x8d][0x94][0x96][0xca][0xe5][0x87][0xf5][0xe1]<[0xa8][0x98][0xfb]9:z[0xb]SA;[0x9d][0xc0]{[0xe7][0xd1]Q[0xfa][0xd3][0xf3][0x4]L[0x8c]P[0x95][0xc]F[0x1f]Pt[0xf7]Z;[0x8a][0x13][0x8c]qg[0xbc][0xac][0xe0][0xf6][0xf9][0x17][0xb]*k[0x1][0x13]a|[0xff]?[0xe5]!h[0x93]][0x10][0x0][0x0]"
+[DEBUG] 2024-04-03 10:44:49.764 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-04-03 10:44:49.834 [main] wire -  << "{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2"
+[DEBUG] 2024-04-03 10:44:49.836 [main] wire -  << "MGQxMzUzODFkYzcxMDAxNGI3NjlhZiIsImZpcnN0TmFtZSI6Ik1vaGFtZWQiLCJsYXN0TmFtZSI6IkFseSIsImlhdCI6MTcxMjEzMzg4OX0.Z6wtPXxwhcgEsVYqYrj2W9tC7QsBwF5dZPhbyNSRsyU","userID":"660d135381dc710014b769af","firstName":"Mohamed"}"
+[DEBUG] 2024-04-03 10:44:49.836 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@f833223
+[DEBUG] 2024-04-03 10:44:49.837 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-04-03 10:44:49.839 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@e9206da
+[DEBUG] 2024-04-03 10:44:49.839 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-04-03 10:44:49.859 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-04-03 10:44:49.860 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-04-03 10:44:49.860 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/moham/.m2/repository/io/qameta/allure/allure-attachments/2.26.0/allure-attachments-2.26.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-04-03 10:44:49.881 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-04-03 10:44:49.884 [main] ReportManager - Actual response status code "200" is successful (Between 200 and 299).
+[INFO ] 2024-04-03 10:44:50.876 [] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2024-04-03 10:44:50.877 [main] ReportManager - Request performed; POST | Response Time: 859ms.
+[INFO ] 2024-04-03 10:44:50.941 [main] ReportManager - Expected "firstName", and actual "{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGQxMzUzODFkYzcxMDAxNGI3NjlhZiIsImZpcnN0TmFtZSI6Ik1vaGFtZWQiLCJsYXN0TmFtZSI6IkFseSIsImlhdCI6MTcxMjEzMzg4OX0.Z6wtPXxwhcgEsVYqYrj2W9tC7QsBwF5dZPhbyNSRsyU","userID":"660d135381dc710014b769af","firstName":"Mohamed"}"
+[INFO ] 2024-04-03 10:44:50.950 [main] ReportManager - Assertion passed
+[DEBUG] 2024-04-03 10:44:51.019 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:24420<->140.82.121.6:443 closed
+[DEBUG] 2024-04-03 10:44:51.079 [main] CompiledPath - Evaluating path: $['firstName']
+[INFO ] 2024-04-03 10:44:51.087 [main] ReportManager - Get response jsonvalue; firstName.
+[INFO ] 2024-04-03 10:44:51.087 [main] ReportManager - Mohamed
+[INFO ] 2024-04-03 10:44:51.094 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: postRequest'
+[INFO ] 2024-04-03 10:44:51.094 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                 Finished Execution of Test Method: 'com.qacart.shaft.OpenBrowsers.postRequest'                                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-03 10:44:51.211 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-03 10:44:51.212 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
